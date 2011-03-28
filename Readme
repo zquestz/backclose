@@ -1,6 +1,6 @@
-Chrome extension that does one thing.
+backclose
 
-When you go back with no history it closes the tab. Supports all normal back button keybindings including:
+A very simple chrome extension. When you try to go back with no history it closes the tab. Supports all common back button keybindings including:
 
 <cmd>[
 <ctrl>[

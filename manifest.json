@@ -1,0 +1,16 @@
+{
+  "name": "Back Close",
+  "version": "1.0",
+  "description": "Back with no history closes the tab.",
+  "icons": { "48": "icon.png" },
+  "background_page": "background.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["backclose.js"]
+    }
+  ],
+  "permissions": [
+    "tabs"
+  ]
+}

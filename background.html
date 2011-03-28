@@ -1,0 +1,9 @@
+<html>
+  <script>
+    chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
+      if (request.closeMe == true) {
+        chrome.tabs.remove(sender.tab.id, function(){})
+      }
+    });
+  </script>
+</html>

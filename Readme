@@ -1,0 +1,10 @@
+Chrome extension that does one thing.
+
+When you go back with no history it closes the tab. Supports all normal back button keybindings including:
+
+<cmd>[
+<ctrl>[
+<cmd><Left Arrow>
+<ctrl><Left Arrow>
+
+Wrote it for myself, but figured others might find it useful.

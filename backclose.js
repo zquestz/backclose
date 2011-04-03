@@ -9,5 +9,5 @@ function closeMe(e) {
 }
 
 function goingBack(e) {
-  return ((e.metaKey == true || e.ctrlKey == true) && (e.keyIdentifier == "U+005B" || e.keyIdentifier == "Left"));
+  return ((e.metaKey == true || e.ctrlKey == true || e.altKey == true) && (e.keyIdentifier == "U+005B" || e.keyIdentifier == "Left"));
 }
